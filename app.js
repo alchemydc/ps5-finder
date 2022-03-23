@@ -46,4 +46,3 @@ function parseResponse(name, url, out_of_stock_string, response) {
 function sendAlert(message) {
     console.log(message);
 }
-//let amazonResponse = getURL(AMAZON_URI).then(res => parseResponse(res));

@@ -48,7 +48,7 @@ function parseResponse(name: string, url: string, out_of_stock_string: string, r
         console.log('In stock!!!');
         sendAlert('PS5 found at ' + name + ': ' + url)
     } else {
-        console.log(name + 'is out of stock :(');
+        console.log(name + ' is out of stock :(');
     } 
 }
 
